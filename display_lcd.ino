@@ -25,7 +25,7 @@ void loop() {
     lcd.print(DHT.humidity);
     delay(200);
   }
-  if (resposta == 'U'){
+  if (resposta == 'T'){
 
     lcd.setCursor(0,0);
     lcd.print("Temperatura:      ");
